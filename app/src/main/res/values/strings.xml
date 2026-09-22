@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Sanitly</string>
+
+    <!-- Status Survey -->
+    <string name="common_back">Назад</string>
+    <string name="survey_introduction_title">Добро пожаловать в Sanitly!</string>
+    <string name="survey_results_title">Результаты</string>
+    <string name="survey_results_verdict_label">Ваш результат:</string>
+    <string name="survey_results_advantages_label">Преимущества использования этого приложения для вас:</string>
+    <string name="survey_results_start_btn">Начать!</string>
+
+    <!-- Goal Creation -->
+    <string name="goal_builder_screen_title">Конструктор целей</string>
+    <string name="goal_builder_new_goal_title">Новая цель</string>
+    <string name="goal_builder_new_goal_name_label">Название цели</string>
+    <string name="goal_builder_new_goal_name_hint">Название новой цели</string>
+    <string name="goal_builder_new_goal_category_label">Категория</string>
+    <string name="goal_builder_new_goal_category_hint">Название категории</string>
+    <string name="goal_builder_new_goal_deadline_label">Дедлайн</string>
+    <string name="goal_builder_new_goal_description_label">Описание (необязательно)</string>
+    <string name="goal_builder_new_goal_description_hint">Кратко опишите, что нужно для достижения этой цели</string>
+    <string name="goal_builder_text_field_error">Это поле не должно быть пустым!</string>
+
+    <!-- Goal into Tasks screen -->
+    <string name="goal_into_tasks_title">Разбейте цель на задачи</string>
+    <string name="goal_new_task_title">Новая задача</string>
+    <string name="goal_new_task_name_hint">Название</string>
+    <string name="goal_new_task_hours_label">Предполагаемое время выполнения</string>
+    <string name="goal_new_task_hours_hint">Время (часов)</string>
+    <string name="goal_new_task_difficulty_label">Сложность</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="goal_new_task_add_btn">Добавить</string>
+
+    <!-- Goal Created Screen -->
+    <string name="goal_created_title">Цель создана!</string>
+    <string name="goal_created_label">Начните работать над ней прямо сейчас!</string>
+    <string name="goal_created_start_goal_btn">Начать цель</string>
+    <string name="goal_created_to_goal_builder_btn">В конструктор</string>
+
+    <!-- Goal Process Screen -->
+    <string name="goal_process_title">Цели</string>
+    <string name="goal_process_describe_mood_label">Выберите подходящее самочуствие после задачи</string>
+    <string name="goal_process_start_task_btn">Начать</string>
+    <string name="goal_process_complete_btn">Завершить</string>
+    <string name="goal_process_task_completed_label">Эта задача уже выполнена!</string>
+    <string name="goal_process_task_label">Задача</string>
+    <string name="goal_process_planned_time_label">Запланированное время</string>
+    <string name="goal_process_alert_label">Вы точно хотите отменить эту задачу? (Она будет считаться проваленной)</string>
+    <string name="goal_process_ended_label">Закончена</string>
+    <string name="goal_process_in_process_label">В работе</string>
+    <string name="goal_process_planned_hours_label">%1$s ч.</string>
+    <string name="goal_process_deadline_label">Дедлайн: %1$s</string>
+    <string name="goal_process_difficulty_label">Сложность: %1$s</string>
+
+    <!-- Cancel Alert Dialog -->
+    <string name="common_confirm">Подтвердить</string>
+    <string name="goal_cancel_alert">Вы точно хотите удалить эту цель?</string>
+    <string name="task_deletion_alert">Вы точно хотите удалить эту цель?</string>
+
+    <!-- Diary Screen -->
+    <string name="diary_screen_title">Дневник</string>
+    <string name="diary_screen_successes_hint">Успехи</string>
+    <string name="diary_screen_successes_label">Похвали себя! За счет чего получилось справиться с целью?</string>
+    <string name="diary_screen_failures_hint">Точки роста</string>
+    <string name="diary_screen_failures_label">Если бы нужно было выполнить эту цель заново, что бы пришлось изменить в своем подходе к работе?</string>
+    <string name="diary_screen_summary_hint">Выводы</string>
+    <string name="diary_screen_summary_label">Какие главные уроки получилось вынести, работая над этой целью? Что ты применишь завтра, чтобы стать эффективнее?</string>
+    <string name="common_save">Сохранить</string>
+
+    <!-- Analytics Screen -->
+    <string name="analytics_screen_title">Аналитика</string>
+    <string name="analytics_screen_day_chip">День</string>
+    <string name="analytics_screen_week_chip">Неделя</string>
+    <string name="analytics_screen_month_chip">Месяц</string>
+    <string name="analytics_day_week_completed_tasks_label">Выполнено задач</string>
+    <string name="analytics_day_week_work_time_label">Время в работе</string>
+    <string name="analytics_day_week_average_difficulty_label">Средняя сложность</string>
+    <string name="analytics_day_productivity_peak_label">Пик продуктивности</string>
+    <string name="analytics_day_week_percentage_label">Выполнено</string>
+    <string name="analytics_day_longest_task_label">Самая долгая задача за день</string>
+    <string name="analytics_day_longest_task_hint">Больше всего времени потрачено на эту задачу</string>
+    <string name="analytics_day_average_mood_label">Среднее настроение за день</string>
+    <string name="analytics_week_tasks_by_days_label">Задачи по дням</string>
+    <string name="analytics_week_mood_by_days_label">Настроение за неделю</string>
+    <string name="analytics_week_best_day_label">Лучший день</string>
+    <string name="analytics_week_worst_day_label">Худший день</string>
+    <string name="analytics_month_completion_label">Выполнено задач</string>
+    <string name="analytics_month_mood_ratio_label">Процент позитивных задач</string>
+    <string name="analytics_month_active_days_label">Активных дней</string>
+    <string name="analytics_month_mood_dynamics_label">Настроение → Продуктивность</string>
+    <string name="analytics_month_mood_dynamics_hint">Влияние настроения на выполненные задачи</string>
+    <string name="analytics_screen_percentage_common">%1$d%%</string>
+    <string name="analytics_screen_completed_tasks_label">Задач: %1$d</string>
+    <string name="analytics_screen_summary_mood_label">Настроение: %1$s</string>
+
+    <!-- Options Screen -->
+    <string name="options_screen_title">Настройки</string>
+    <string name="options_about_title">О приложении</string>
+    <string name="options_theme_title">Тема</string>
+    <string name="options_notifications_title">Уведомления</string>
+    <string name="options_notifications_switch">Отображение уведомлений</string>
+    <string name="options_notifications_sound_switch">Звук уведомлений</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Выполняется задача</string>
+    <string name="notification_status_just_started">Вы только начали задачу, продолжайте в том же духе!</string>
+    <string name="notification_status_one_hour">Вы работаете уже более часа — продуктивная работа!</string>
+    <string name="notification_status_two_hours">Вы работаете уже больше двух часов — вы отлично потрудились!</string>
+    <string name="notification_status_three_hours">Вы работаете уже более 3 часов, стоит отдохнуть?</string>
+    <string name="notification_status_long_time">Вы работаете уже очень долго</string>
+</resources>
